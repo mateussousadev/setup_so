@@ -1,7 +1,7 @@
 #!/bin/bash
 
-acho "alias ll='ls -las'" >> ~/.bash_aliases
-acho "alias phpv='sudo update-alternatives --config php'" >> ~/.bash_aliases
+echo "alias ll='ls -las'" >> ~/.bash_aliases
+echo "alias phpv='sudo update-alternatives --config php'" >> ~/.bash_aliases
 echo "alias cu='composer update'" >> ~/.bash_aliases
 echo "alias cda='composer dumpautoload'" >> ~/.bash_aliases
 echo "alias pas='php artisan serve'" >> ~/.bash_aliases
